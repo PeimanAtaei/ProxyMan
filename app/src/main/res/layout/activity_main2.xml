@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.HelpActivity"
+    android:background="@drawable/background"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title 1"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:padding="@dimen/margin_normal"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_text1"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_big"
+            android:padding="@dimen/margin_small"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title 2"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_big"
+            android:padding="@dimen/margin_small"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title 3"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_big"
+            android:padding="@dimen/margin_small"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help_text3"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_big"
+            android:padding="@dimen/margin_small"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:paddingRight="@dimen/margin_larg"
+        android:paddingLeft="@dimen/margin_larg"
+        android:paddingBottom="@dimen/margin_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnStart"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:background="@color/darkGreen"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="شروع"/>
+
+    </LinearLayout>
+
+</LinearLayout>

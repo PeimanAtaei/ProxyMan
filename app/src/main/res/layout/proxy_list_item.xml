@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/proxy_container"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_layout"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_normal"
+        android:paddingBottom="@dimen/margin_normal"
+        >
+
+      <androidx.appcompat.widget.LinearLayoutCompat
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          android:gravity="center"
+          android:layout_weight="1">
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:id="@+id/img_status"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:layout_marginLeft="8dp"
+              android:src="@drawable/green"
+              android:layout_marginStart="8dp" />
+
+          <androidx.appcompat.widget.AppCompatTextView
+              android:id="@+id/txt_status"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:textSize="17sp"
+              android:textStyle="bold"
+              android:textColor="@color/green"
+              android:text="@string/server_status"/>
+
+
+      </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_country_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/server_country"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_proxy_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="@string/server_name"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>

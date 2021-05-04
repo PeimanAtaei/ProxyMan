@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/invitationCodeTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invitation_code_message_title1"
+            android:textColor="@color/colorAccent"
+            android:padding="@dimen/margin_small"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_larg" />
+
+        <TextView
+            android:id="@+id/invitationCodeTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invitation_code_message_title2"
+            android:textColor="@color/colorAccent"
+            android:padding="@dimen/margin_small"
+            android:gravity="center"
+            android:layout_below="@id/invitationCodeTitle1"
+            android:textSize="@dimen/text_size_larg" />
+
+        <EditText
+            android:id="@+id/invitationCodeEditText"
+            android:layout_below="@id/invitationCodeTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"
+            android:maxLength="5"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_border_input"
+            android:gravity="center"
+            android:hint="کد معرف خود را وارد کنید"
+            android:inputType="number"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_normal"
+            android:orientation="horizontal"
+            android:layout_below="@id/invitationCodeEditText"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@color/darkGreen"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:text="@string/invitation_code_cancel_title"
+                android:textSize="@dimen/text_size_normal"
+                />
+            <Button
+                android:id="@+id/saveInvitationCodeButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@color/darkGreen"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:text="@string/invitation_code_save_title"
+                android:textSize="@dimen/text_size_normal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

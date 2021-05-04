@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="@dimen/margin_normal"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:gravity="center">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingRight="@dimen/margin_larg"
+        android:paddingLeft="@dimen/margin_larg"
+        android:layout_weight="0.3">
+
+        <!--  Phone Label -->
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/inputPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="phone"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:background="@drawable/rounded_border_input"
+            android:hint="@string/hint_phoneNumber"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:maxLength="11"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"/>
+
+        <!--  Password Label -->
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_border_input"
+            android:hint="@string/hint_password"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:paddingRight="@dimen/margin_larg"
+        android:paddingLeft="@dimen/margin_larg"
+        android:paddingBottom="@dimen/margin_normal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/darkGreen"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/login_btn_text"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textColor="@color/white"
+            android:id="@+id/btnLinkRegister"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/login_btn_to_register_text"
+            android:gravity="center"
+            android:textSize="16dip"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

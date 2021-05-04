@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Proxyman</string>
+    <string name="pref_user_id" translatable="false">pref_user_id</string>
+    <string name="pref_user_phoneNumber" translatable="false">pref_user_phoneNumber</string>
+    <string name="pref_user_token" translatable="false">pref_user_token</string>
+    <string name="pref_user_created_at" translatable="false">pref_user_created_at</string>
+    <string name="pref_user_updated_at" translatable="false">pref_user_updated_at</string>
+    <string name="pref_user_vip_type" translatable="false">pref_user_vip_type</string>
+    <string name="pref_user_invitation_code" translatable="false">pref_user_invitation_code</string>
+    <string name="pref_user_remoteAddress">pref_user_remoteAddress</string>
+    <string name="hint_phoneNumber">شماره موبایل</string>
+    <string name="hint_password">رمز عبور</string>
+    <string name="hint_invitation_code">کد معرف ( اختیاری )</string>
+    <string name="login_btn_text">ورود</string>
+    <string name="login_btn_to_register_text">نیاز به یک حساب کاربری جدید دارید؟</string>
+    <string name="register_btn_to_login_text">اگر حساب کاربری دارید ؟ وارد شوید</string>
+    <string name="register_btn_text">ادامه</string>
+    <string name="pref_user_payment">pref_user_payment</string>
+    <string name="toolbar_payment">خرید اشتراک</string>
+    <string name="toolbar_main">پراکسی من</string>
+    <string name="subscribe_free">subscribe_free</string>
+    <string name="subscribe_one_month">subscribe_one_month</string>
+    <string name="subscribe_three_month">subscribe_three_month</string>
+    <string name="payment_connection_description">لطفا صبر کنید</string>
+    <string name="payment_free_test_description">آماده سازی پراکسی</string>
+    <string name="pref_user_free_test">pref_user_free_test</string>
+    <string name="subscribe_free_title">یک روزه ( تست )</string>
+    <string name="subscribe_one_month_title">یک ماهه</string>
+    <string name="subscribe_three_month_title">سه ماهه</string>
+    <string name="server_name">نام سرور</string>
+    <string name="server_country">نام کشور</string>
+    <string name="server_status">وضعیت</string>
+    <string name="payment_btn_text">خرید</string>
+    <string name="payment_silver_title">طرح نقره ای</string>
+    <string name="payment_silver_date">یک ماهه</string>
+    <string name="payment_silver_price">5,000 تومان</string>
+    <string name="payment_gold_title">طرح طلایی</string>
+    <string name="payment_gold_date">سه ماهه</string>
+    <string name="payment_gold_price">13,000 تومان</string>
+    <string name="proxy_open_message">آماده سازی پراکسی</string>
+    <string name="telegram_not_installed">تلگرام روی گوشی شما نصب نیست،‌ لطفا نصب کنید و دوباره سعی کنید</string>
+    <string name="register_dialog_message">در حال عضویت</string>
+    <string name="login_dialog_message">در حال ورود</string>
+    <string name="invitation_code_message_title1">در صورت داشتن کد معرف آن را وارد نموده</string>
+    <string name="invitation_code_message_title2">و 20 درصد تخفیف دریافت نمایید ( اختیاری )</string>
+    <string name="invitation_code_save_title">پرداخت</string>
+    <string name="invitation_code_cancel_title">بیخیال</string>
+    <string name="pref_plan">pref_plan</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+
+    //----------------------------------------------------------------------------------------------
+
+    <string name="help_title">راهنما</string>
+    <string name="help_text1">کاربران محترم توجه داشته باشید</string>
+    <string name="help_text2">برای استفاده از پروکسی من ، حتما از نسخه اصلی تلگرام و اپدیت اخر این نرم افزار استفاده نمایید</string>
+    <string name="help_text3">قبل از اتصال به پروکسی ها ، اگر از نرم افزار های فیلتر شکن استفاده می کنید آن را خاموش نمایید</string>
+    <string name="help_text4">برای تست کیفیت پروکسی ها یک روز استفاده رایگان به شما هدیه می شود و بعد از یک روز می توانید با خرید اکانت از این نرم افزار لذت ببرید</string>
+    <string name="help_text5">ابتدا مطابق تصویر زیر بر روی یکی از پروکسی های فهرست کلیک نمایید . در صورت سبز بودن ایکون وضعیت پروکسی فعال و در حالت قرمز غیر فعال می باشد . در صورت قرمز بودن پروکسی ، از پروکسی های دیگر لیست استفاده نمایید</string>
+    <string name="help_text6">بعد از کلیک بر روی پروکسی وارد محیط تلگرام می شوید . در این بخش بر روی اتصال یه پروکسی کلیک نمایید . توجه داشته باشید که نرم افزار های فیلتر شکن نباید در گوشی شما فعال باشند</string>
+    <string name="help_text7">بعد از اتمام یک روز اکانت رایگان ، شما می توانید با خرید اکانت یک ماهه یا سه ماهه از این نرم افزار استفاده نمایید . توجه داشته باشید که در صورت داشتن کد معرف و وارد نمودن آن بیست درصد تخفیف دریافت می نمایید . در صورت نداشتن کد ، بدونه وارد نمودن آن بر روی دکمه پرداخت کلیک نمایید</string>
+</resources>
